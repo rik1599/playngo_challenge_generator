@@ -213,3 +213,4 @@ logs/
 */logs/*
 notebooks/*/*.ods#
 metaflow-tutorials/
+data/earth_day_missions.csv
