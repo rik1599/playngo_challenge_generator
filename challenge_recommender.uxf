@@ -73,7 +73,7 @@ r1=tasks</panel_attributes><additional_attributes>200;270;10;270;10;10</addition
 &lt;&lt;use&gt;&gt;</panel_attributes><additional_attributes>10;460;180;460;180;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>418</x><y>1001</y><w>121</w><h>176</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m2=1..*
 r2=feedbackData</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>880</x><y>352</y><w>363</w><h>55</h></coordinates><panel_attributes>lt=&lt;-
-m1=1
+m1=1..*
 r1=model</panel_attributes><additional_attributes>310;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>869</x><y>231</y><w>110</w><h>33</h></coordinates><panel_attributes>Player
 -
 -</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>605</x><y>11</y><w>110</w><h>33</h></coordinates><panel_attributes>/Task/
@@ -115,7 +115,7 @@ r1=task</panel_attributes><additional_attributes>10;350;140;350;140;10;80;10</ad
 --
 --
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>858</x><y>605</y><w>297</w><h>55</h></coordinates><panel_attributes>lt=&lt;-
-m1=1
+m1=1..*
 r1=model</panel_attributes><additional_attributes>250;20;10;20</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1089</x><y>748</y><w>132</w><h>66</h></coordinates><panel_attributes>LTR model and/or
 business logic
 heuristics</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1155</x><y>638</y><w>55</w><h>132</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>30;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>418</x><y>385</y><w>880</w><h>891</h></coordinates><panel_attributes>lt=&lt;.
