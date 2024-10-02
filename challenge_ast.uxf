@@ -1,0 +1,50 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>0</x><y>444</y><w>120</w><h>36</h></coordinates><panel_attributes>Player
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>204</x><y>444</y><w>120</w><h>36</h></coordinates><panel_attributes>Task
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>228</x><y>612</y><w>120</w><h>96</h></coordinates><panel_attributes>Parameter
+--
+MIN_VALUE
+MAX_VALUE
+STEP
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>36</x><y>612</y><w>120</w><h>36</h></coordinates><panel_attributes>Attribute
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>624</x><y>468</y><w>120</w><h>36</h></coordinates><panel_attributes>Scorer
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>276</y><w>144</w><h>36</h></coordinates><panel_attributes>AdaptationEngine
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>792</x><y>468</y><w>120</w><h>36</h></coordinates><panel_attributes>Ranker
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>672</x><y>300</y><w>84</w><h>192</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2pos=5,7
+m2=1
+</panel_attributes><additional_attributes>50;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>756</x><y>300</y><w>120</w><h>192</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+
+m2=1	</panel_attributes><additional_attributes>10;10;80;140</additional_attributes></element><element><id>Relation</id><coordinates><x>48</x><y>468</y><w>72</w><h>168</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=0..*</panel_attributes><additional_attributes>10;10;20;120</additional_attributes></element><element><id>Relation</id><coordinates><x>96</x><y>468</y><w>168</w><h>168</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2pos=5,7
+m2=0..*	</panel_attributes><additional_attributes>120;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>276</x><y>468</y><w>60</w><h>168</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=0..*</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>336</x><y>84</y><w>120</w><h>36</h></coordinates><panel_attributes>GamefulSystem
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>48</x><y>108</y><w>360</w><h>360</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2pos=7,7
+m2=1		</panel_attributes><additional_attributes>280;10;10;280</additional_attributes></element><element><id>Relation</id><coordinates><x>252</x><y>108</y><w>180</w><h>360</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2pos=7,7
+m2=1..*	</panel_attributes><additional_attributes>130;10;10;280</additional_attributes></element><element><id>Relation</id><coordinates><x>408</x><y>108</y><w>348</w><h>192</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2pos=20,-10
+m2=1
+</panel_attributes><additional_attributes>10;10;270;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>276</y><w>120</w><h>36</h></coordinates><panel_attributes>Feedback
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>984</x><y>468</y><w>132</w><h>36</h></coordinates><panel_attributes>ImplicitFeedback
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1176</x><y>468</y><w>120</w><h>36</h></coordinates><panel_attributes>EsplicitFeedback
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>792</x><y>276</y><w>312</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;240;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1032</x><y>300</y><w>132</w><h>192</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;90;70;10;70;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>1128</x><y>300</y><w>132</w><h>192</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70;90;70;90;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>444</x><y>468</y><w>120</w><h>36</h></coordinates><panel_attributes>Generator
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>492</x><y>300</y><w>228</w><h>204</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2pos=-5,7
+m2=1
+</panel_attributes><additional_attributes>170;10;10;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>132</y><w>120</w><h>36</h></coordinates><panel_attributes>Context
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1128</x><y>156</y><w>60</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=0..*</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element></diagram>
